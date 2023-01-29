@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news_list",
+  "info": {
+    "singularName": "news",
+    "pluralName": "news-list",
+    "displayName": "news"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "article": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::article.article"
+    },
+    "isTop": {
+      "type": "boolean"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}
