@@ -12,11 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "article": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::article.article"
-    },
     "isTop": {
       "type": "boolean",
       "required": true,
@@ -32,6 +27,12 @@
     },
     "endDate": {
       "type": "date"
+    },
+    "article": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.article",
+      "required": true
     }
   }
 }
