@@ -19,7 +19,8 @@
       "component": "general.card"
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "image": {
       "type": "media",
@@ -33,7 +34,8 @@
       ]
     },
     "content": {
-      "type": "text"
+      "type": "text",
+      "required": true
     }
   }
 }

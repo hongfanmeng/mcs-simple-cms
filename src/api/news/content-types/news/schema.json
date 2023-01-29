@@ -18,10 +18,14 @@
       "target": "api::article.article"
     },
     "isTop": {
-      "type": "boolean"
+      "type": "boolean",
+      "required": true,
+      "default": false
     },
     "order": {
-      "type": "integer"
+      "type": "integer",
+      "default": 0,
+      "required": true
     }
   }
 }
