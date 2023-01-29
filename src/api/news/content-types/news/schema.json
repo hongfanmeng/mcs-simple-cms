@@ -4,7 +4,8 @@
   "info": {
     "singularName": "news",
     "pluralName": "news-list",
-    "displayName": "news"
+    "displayName": "News",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
