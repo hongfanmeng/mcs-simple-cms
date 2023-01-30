@@ -16,7 +16,8 @@
       "displayName": "pair",
       "type": "component",
       "repeatable": true,
-      "component": "general.pair"
+      "component": "general.pair",
+      "required": true
     },
     "googleMapAddr": {
       "type": "string",
