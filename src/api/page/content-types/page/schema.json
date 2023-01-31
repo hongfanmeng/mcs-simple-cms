@@ -29,10 +29,15 @@
     },
     "name": {
       "type": "string",
-      "required": true
+      "required": true,
+      "unique": true
     },
     "link": {
       "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
       "required": true
     }
   }
